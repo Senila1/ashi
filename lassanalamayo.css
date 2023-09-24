@@ -218,7 +218,24 @@
 
 
     .videos{
-      background-color: transparent;
-      
-
+      background-image: url('wp5781687-4k-music-wallpapers.jpg');
+      font-family: inconsolata;
+      font-size: 255%;
+      color: black;
+      padding-left: 0%;
+      pointer-events: all;
+      cursor: default;
+width: 70%;
+height: fit-content;
+background-attachment: fixed;
+background-repeat: no-repeat;
+border-radius: 5px;
+margin-left: 12%;
+text-align: center;
+    }
+    iframe{
+      border-radius: 10px;
+    }
+    li{
+      color: white;
     }
