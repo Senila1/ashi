@@ -199,13 +199,15 @@
   }
   .footer{
     border-radius: 7px;
-    border-style: outset;
-    border-color: #ffe600;
-    background-color: #ffe600;
+    border-style: double;
+    border-color: #000000;
+    background-color: #0000009c;
     width: 100%;
-    height: 40%;
+    height: auto;
     pointer-events: all;
     cursor: default;
+    border-width: 1%;
+    
   }
   @-webkit-keyframes glow {
     from {
@@ -239,3 +241,29 @@ text-align: center;
     li{
       color: white;
     }
+    i{
+      width: 20%;
+    }
+    .footer-caption{
+      text-align: center;
+      text-shadow: 40px;
+      font-size: 170%;
+      animation: rotate;
+      animation-duration: 0.9s;
+      animation-direction: reverse;
+      text-decoration: dotted;
+    }
+    .footer-content{
+      font-size: 130%;
+    }
+    @keyframes rotate{
+      0%{
+        transform: rotate(0);
+    }
+    50%{
+      transform: rotate(180deg);
+    }
+    100%{
+      transform: rotate(360deg)
+    }
+  }
